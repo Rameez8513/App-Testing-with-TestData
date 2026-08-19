@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify login with google is working</description>
+   <name>Login with Google</name>
+   <tag>@smoke,@registration</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5717a686-fe86-4bfb-9955-62ab401d7467</testCaseGuid>
+</TestCaseEntity>

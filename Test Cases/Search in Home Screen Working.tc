@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Search button and bar is working properly.</description>
+   <name>Search in Home Screen Working</name>
+   <tag>@search,@smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07218be3-f60e-4a4a-885a-270f629c5090</testCaseGuid>
+</TestCaseEntity>
