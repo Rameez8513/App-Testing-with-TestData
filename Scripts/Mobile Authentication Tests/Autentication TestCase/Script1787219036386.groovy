@@ -17,27 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login with Google'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\Rameez\\Downloads\\eCommerce_App-1.8.apk', true)
 
-Mobile.startApplication('C:\\Users\\Rameez\\Downloads\\fluttersamples.apk', true)
+Mobile.tap(findTestObject('android.widget.Button - SKIP (1)'), 60)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout'), 60)
+Mobile.tap(findTestObject('android.widget.ImageButton (1) (1)'), 60)
 
-Mobile.tap(findTestObject('android.widget.EditText - Search'), 60)
+Mobile.tap(findTestObject('android.widget.CheckedTextView - My Account (1)'), 60)
 
-Mobile.sendKeys('l')
+Mobile.tap(findTestObject('android.widget.TextView - Not Registered  Register Now (1)'), 60)
 
-Mobile.sendKeys('u')
+Mobile.tap(findTestObject('android.widget.EditText - Name (1)'), 60)
 
-Mobile.sendKeys('do')
+Mobile.setText(findTestObject('android.widget.EditText - Name (1)'), Name, 60)
 
-Mobile.tap(findTestObject('android.widget.LinearLayout'), 60)
+Mobile.setText(findTestObject('android.widget.EditText - Mobile Number (1)'), Number, 60)
 
-Mobile.pinchToZoomInAtPosition(523, 255, 180)
+Mobile.setText(findTestObject('android.widget.EditText - Email (1)'), Email, 60)
 
-Mobile.pinchToZoomInAtPosition(569, 854, 180)
+Mobile.setText(findTestObject('android.widget.EditText - Password (1)'), Password, 60)
 
-Mobile.tap(findTestObject('android.widget.ImageView'), 60)
+Mobile.tap(findTestObject('android.widget.Button - REGISTER (1)'), 60)
 
 Mobile.closeApplication()
 
