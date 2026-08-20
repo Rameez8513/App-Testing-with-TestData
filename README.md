@@ -48,6 +48,16 @@ This suite verifies login functionality by executing the same automated test cas
 4. Open the Test Suite and click **Run**, selecting the connected device
 5. View consolidated results (20 iterations) under `Reports/`
 
+## Test Data
+
+Login test data used for data-driven execution is available here: [Test_Data.xlsx](Test_Data.xlsx)
+
+| Name | Mobile Number | Email | Password |
+|------|---------------|-------|----------|
+| Ahmed Khan | 031X-XXXXXXX | ahmed.khan1@gmail.com | Xy3kLmA9 |
+| Ali Malik | 032X-XXXXXXX | ali.malik2@gmail.com | Qw8pRtB2 |
+| ... | ... | ... | *(20 rows total — see full file above)* |
+
 ## Screenshots
 
 ![Test Execution](TestDataCase.png)
